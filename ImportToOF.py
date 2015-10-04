@@ -12,7 +12,7 @@ import sys
 title = sys.argv[1]
 url = sys.argv[2]
 
-task = console.input_alert('Task', 'Enter task’s description')
+task = console.input_alert('Task', 'Enter tasks description')
 task = urllib.quote(task)
 
 note = clipboard.get()
